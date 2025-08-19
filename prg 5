@@ -1,0 +1,12 @@
+<?php
+$strings = array("Hello World", "Welcome to PHP", "Have a nice day");
+$search = "PHP";
+
+foreach ($strings as $str) {
+    if (strpos($str, $search) !== false) {   // !== false ensures it works even if found at position 0
+        echo "The string '$str' contains '$search'. <br>";
+    } else {
+        echo "The string '$str' does NOT contain '$search'. <br>";
+    }
+}
+?>
