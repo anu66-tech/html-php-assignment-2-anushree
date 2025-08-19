@@ -1,0 +1,11 @@
+<?php
+$text = "The cat is on the roof. The cat likes milk. Cats are cute.";
+$pattern = "/\bcat\b/i";   // \b ensures whole word, 'i' makes it case-insensitive
+$replacement = "dog";
+
+// Replace all occurrences
+$result = preg_replace($pattern, $replacement, $text);
+
+echo "Original Text: $text <br>";
+echo "Modified Text: $result";
+?>
