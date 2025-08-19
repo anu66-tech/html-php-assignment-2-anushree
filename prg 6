@@ -1,0 +1,6 @@
+<?php
+$fruits = array("Apple", "Banana", "Mango", "Orange", "Grapes");
+
+// Arrays in PHP are 0-indexed, so the third element is at index 2
+echo "The third fruit is: " . $fruits[2];
+?>
