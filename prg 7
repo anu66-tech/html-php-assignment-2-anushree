@@ -1,0 +1,9 @@
+<?php
+$fruits = array("Apple", "Banana");
+array_push($fruits, "Mango", "Orange");
+
+print_r($fruits);
+?>
+
+output
+Array ( [0] => Apple [1] => Banana [2] => Mango [3] => Orange )
